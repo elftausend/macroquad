@@ -730,8 +730,7 @@ impl EventHandler for Stage {
     }
 }
 
-/// Not meant to be used directly, only from the macro.
-#[doc(hidden)]
+
 pub struct Window {}
 
 impl Window {
